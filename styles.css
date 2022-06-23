@@ -1,0 +1,31 @@
+#game-wrapper{
+    width: 300px;
+    height: 300px;
+    margin:auto;
+}
+#game-wrapper div div{
+    background-color: rgba(255, 0, 221, 0.629);
+    border:black solid;  
+}
+#game-wrapper div{
+    display: flex;
+    flex-direction: row;
+    height:30%;
+    
+    
+}
+.column1{
+    flex:1;
+    height: 100% !important;
+}
+.column2{
+    flex:1; 
+    height: 100% !important;
+}
+.column3{
+    flex:1;
+    height: 100% !important;
+}
+h1{
+    text-align: center;
+}
